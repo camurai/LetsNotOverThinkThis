@@ -2,8 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class Move : MonoBehaviour
 {
+    public float speed;
+
+    private Rigidbody rb;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,9 +16,8 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-         Rigidbody rb = GetComponent<Rigidbody>();
-         if (Input.GetKey(KeyCode.A))
+          Rigidbody rb = GetComponent<Rigidbody>();
+          if (Input.GetKey(KeyCode.A))
              rb.AddForce(Vector3.left);
          if (Input.GetKey(KeyCode.D))
              rb.AddForce(Vector3.right);
@@ -23,7 +25,11 @@ public class PlayerController : MonoBehaviour
              rb.AddForce(Vector3.forward);
          if (Input.GetKey(KeyCode.S))
              rb.AddForce(Vector3.back);
- 
-     
+
+        if (Input.GetKeyDown("space"))
+        {
+            print("space key was pressed");
+            
+        }
     }
 }

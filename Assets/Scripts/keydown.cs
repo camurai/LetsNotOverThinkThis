@@ -1,27 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-   [System.Serializable]
 
-public class GameController : MonoBehaviour
+public class keydown : MonoBehaviour
 {
-    public GameObject cView;
-    private Text consoleView;
+    // Start is called before the first frame update
     void Start()
     {
-       consoleView = cView.GetComponent<Text>();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-
         if (Input.GetKeyDown("space"))
         {
             print("space key was pressed");
         }
-          //  Debug.Log("Test");
-          //consoleView.text = "Words From Script";
     }
 }
