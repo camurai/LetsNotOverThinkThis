@@ -235,6 +235,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 5f42823066b32476b844b9bd0d19212d,
         type: 2}
+    - target: {fileID: 3177911383608669943, guid: 0f95600447784453fa92df3870104f60,
+        type: 3}
+      propertyPath: m_Text
+      value: Rotate your character 90 degrees to the left
+      objectReference: {fileID: 0}
+    - target: {fileID: 3177911382304840690, guid: 0f95600447784453fa92df3870104f60,
+        type: 3}
+      propertyPath: m_Text
+      value: Turn Left
+      objectReference: {fileID: 0}
+    - target: {fileID: 3177911382686928611, guid: 0f95600447784453fa92df3870104f60,
+        type: 3}
+      propertyPath: m_Text
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f95600447784453fa92df3870104f60, type: 3}
 --- !u!224 &35749717 stripped
@@ -371,6 +386,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: c5330d2dc12d04eb8ad630c0708bd54c,
         type: 2}
+    - target: {fileID: 3177911383608669943, guid: 0f95600447784453fa92df3870104f60,
+        type: 3}
+      propertyPath: m_Text
+      value: Move your character forward one space
+      objectReference: {fileID: 0}
+    - target: {fileID: 3177911382304840690, guid: 0f95600447784453fa92df3870104f60,
+        type: 3}
+      propertyPath: m_Text
+      value: Move Forward
+      objectReference: {fileID: 0}
+    - target: {fileID: 3177911382686928611, guid: 0f95600447784453fa92df3870104f60,
+        type: 3}
+      propertyPath: m_Text
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f95600447784453fa92df3870104f60, type: 3}
 --- !u!224 &229907934 stripped
@@ -571,6 +601,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 142170ef8dbe24a2b8cc409ad24c8198,
         type: 2}
+    - target: {fileID: 3177911383608669943, guid: 0f95600447784453fa92df3870104f60,
+        type: 3}
+      propertyPath: m_Text
+      value: Rotate your character 90 degrees to the right.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3177911382304840690, guid: 0f95600447784453fa92df3870104f60,
+        type: 3}
+      propertyPath: m_Text
+      value: Turn Right
+      objectReference: {fileID: 0}
+    - target: {fileID: 3177911382686928611, guid: 0f95600447784453fa92df3870104f60,
+        type: 3}
+      propertyPath: m_Text
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f95600447784453fa92df3870104f60, type: 3}
 --- !u!224 &938807370 stripped
@@ -959,6 +1004,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 8ec7427aa9f454b59aad1483b79496cd,
         type: 2}
+    - target: {fileID: 3177911383608669943, guid: 0f95600447784453fa92df3870104f60,
+        type: 3}
+      propertyPath: m_Text
+      value: Move forward 2 spaces.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3177911382304840690, guid: 0f95600447784453fa92df3870104f60,
+        type: 3}
+      propertyPath: m_Text
+      value: Dash Forward
+      objectReference: {fileID: 0}
+    - target: {fileID: 3177911382686928611, guid: 0f95600447784453fa92df3870104f60,
+        type: 3}
+      propertyPath: m_Text
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f95600447784453fa92df3870104f60, type: 3}
 --- !u!224 &1764080150 stripped
@@ -1090,5 +1150,20 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 7e1078ae3747842acb6603360c594e38,
         type: 2}
+    - target: {fileID: 3177911383608669943, guid: 0f95600447784453fa92df3870104f60,
+        type: 3}
+      propertyPath: m_Text
+      value: Move your character backwards one space.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3177911382304840690, guid: 0f95600447784453fa92df3870104f60,
+        type: 3}
+      propertyPath: m_Text
+      value: Move Back
+      objectReference: {fileID: 0}
+    - target: {fileID: 3177911382686928611, guid: 0f95600447784453fa92df3870104f60,
+        type: 3}
+      propertyPath: m_Text
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f95600447784453fa92df3870104f60, type: 3}

@@ -14,11 +14,8 @@ public class CardDisplay : MonoBehaviour
     // Start is called before the first frame update
     void OnValidate()
     {
-        Debug.Log("Testing");
         nameText.text = card.name;
         descriptionText.text = card.description;
         costText.text = card.cost.ToString();
-
-        card.Print();
     }
 }
