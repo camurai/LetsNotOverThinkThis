@@ -13,7 +13,7 @@ public class DragRotator : MonoBehaviour
     private float m_pitchVel;
     private float m_rollVel;
     private Vector3 m_prevPos;
-    private Vector3 m_originalAngles;
+    public Vector3 m_originalAngles;
 
     private void Awake()
     {

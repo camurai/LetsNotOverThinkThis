@@ -14,4 +14,8 @@ public class Card : ScriptableObject
     {
         Debug.Log("name:" + name + " - description:" + description + " - cost:" + cost);
     }
+
+
+
+
 }

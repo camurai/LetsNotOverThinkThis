@@ -11,8 +11,12 @@ public class CardDisplay : MonoBehaviour
     public Text descriptionText;
     public Text costText;
 
-    // Start is called before the first frame update
     void OnValidate()
+    {
+        Update();
+    }
+
+    void Update()
     {
         nameText.text = card.name;
         descriptionText.text = card.description;
