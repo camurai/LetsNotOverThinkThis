@@ -1,18 +1,30 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
 
-public class MenuScript : MonoBehaviour
+public class MenuScript 
 {
-    // Start is called before the first frame update
-    void Start()
+    [MenuItem("Tools/Assign Tile Material")]
+    public static void AssignTileMaterial()
     {
-        
+        GameObject[] tiles = GameObject.FindGameObjectsWithTag("Tile");
+        Material material = Resources.Load<Material>("Tile");
+
+        foreach (GameObject t in tiles)
+        {
+            t.GetComponent<Renderer>().material = material;
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    [MenuItem("Tools/Assign Tile Script")]
+    public static void AssignTileScript()
     {
-        
+        GameObject[] tiles = GameObject.FindGameObjectsWithTag("Tile");
+
+        foreach (GameObject t in tiles)
+        {
+            t.AddComponent<Tile>();
+        }
     }
 }
